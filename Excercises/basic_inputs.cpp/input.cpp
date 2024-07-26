@@ -16,5 +16,9 @@ int main(int argc, char* argv[])
         std::cout<<"What is your favorite color? ";
         std::getline(std::cin, str);
         std::cout<<"You provided: " << str << " " << std::endl;
+        if(str == "yellow")
+        {
+            access_granted = true;
+        }
     }
 }
